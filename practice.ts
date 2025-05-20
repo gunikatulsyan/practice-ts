@@ -14,3 +14,12 @@ function greet(name: string): string {
   return `Hello, ${name}`;
 }
 console.log(greet("Alice"));
+
+class Animal {
+  constructor(public name: string) {}
+  speak() {
+    console.log(`${this.name} makes a noise.`);
+  }
+}
+const dog = new Animal("Dog");
+dog.speak();

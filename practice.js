@@ -13,3 +13,14 @@ function greet(name) {
     return "Hello, ".concat(name);
 }
 console.log(greet("Alice"));
+var Animal = /** @class */ (function () {
+    function Animal(name) {
+        this.name = name;
+    }
+    Animal.prototype.speak = function () {
+        console.log("".concat(this.name, " makes a noise."));
+    };
+    return Animal;
+}());
+var dog = new Animal("Dog");
+dog.speak();
