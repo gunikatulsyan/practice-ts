@@ -6,4 +6,6 @@ enum Direction {
 }
 let move: Direction = Direction.Up;
 console.log(move);
- 
+
+let greeting = "Hello";
+console.log(greeting);

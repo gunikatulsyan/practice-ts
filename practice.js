@@ -7,3 +7,5 @@ var Direction;
 })(Direction || (Direction = {}));
 var move = Direction.Up;
 console.log(move);
+var greeting = "Hello";
+console.log(greeting);
