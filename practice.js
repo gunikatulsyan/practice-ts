@@ -1,6 +1,9 @@
-var Message = "Hello, TypeScript";
-console.log(Message);
-var Age = 25;
-var Name = "Alice";
-var IsActive = true;
-console.log(Age, Name, IsActive);
+var Mess = "Hello, TypeScript";
+console.log(Mess);
+var Ag = 25;
+var Nam = "Alice";
+var IsActiv = true;
+console.log(Ag, Nam, IsActiv);
+var fruits = ["apple", "banana"];
+var user = ["Alice", 25];
+console.log(fruits, user);

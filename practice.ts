@@ -1,7 +1,11 @@
-const Message: string = "Hello, TypeScript";
-console.log(Message);
+const Mess: string = "Hello, TypeScript";
+console.log(Mess);
 
-let Age: number =25;
-let Name: string ="Alice";
-let IsActive: boolean = true;
-console.log(Age, Name, IsActive);
+let Ag: number =25;
+let Nam: string ="Alice";
+let IsActiv: boolean = true;
+console.log(Ag, Nam, IsActiv);
+
+let fruits: string[] = ["apple", "banana"];
+let user: [string, number] = ["Alice", 25];
+console.log(fruits, user);
