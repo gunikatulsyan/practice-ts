@@ -9,3 +9,7 @@ var move = Direction.Up;
 console.log(move);
 var greeting = "Hello";
 console.log(greeting);
+function greet(name) {
+    return "Hello, ".concat(name);
+}
+console.log(greet("Alice"));
